@@ -4,6 +4,11 @@ This repository provides Python tools to extract and refine local affine transfo
 
 Unlike standard matching pipelines that only output $(x, y)$ point correspondences, this toolbox leverages the scale and orientation properties of local descriptors (like OpenCV's SIFT) to compute the **local affine frame** for each individual match.
 
+
+![Visualization of affine transformations using the SIFT meth]
+<p align="center">
+  <img src="assets/visSIFT1.png" width="400"> <img src="assets/visSIFT2.png" width="400">
+</p>
 ## Features
 
 * **OpenCV SIFT Affine Matcher (`OpenCVAffineMatcher.py`)**: Computes initial local affine transformations directly from OpenCV's `cv2.SIFT` keypoint properties (`size` and `angle`) after matching.
