@@ -9,6 +9,8 @@ Visualization of affine transformations using the SIFT meth:
 <p align="center">
   <img src="assets/visSIFT1.png" width="400"> <img src="assets/visSIFT2.png" width="400">
 </p>
+
+
 ## Features
 
 * **OpenCV SIFT Affine Matcher (`OpenCVAffineMatcher.py`)**: Computes initial local affine transformations directly from OpenCV's `cv2.SIFT` keypoint properties (`size` and `angle`) after matching.
