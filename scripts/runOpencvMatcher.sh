@@ -1,1 +1,1 @@
-python3 OpenCVAffineMatcher.py panoramaCikkbe1_Infopark_szokokut/1.png panoramaCikkbe1_Infopark_szokokut/2.png panoramaCikkbe1_Infopark_szokokut/AffsSIFT.txt SIFT 100
+python ../LocalAffineExtractor/OpenCVAffineMatcher.py ../data/infopark/a.png ../data/infopark/b.png ../data/infopark/AffsSIFT.txt SIFT 100

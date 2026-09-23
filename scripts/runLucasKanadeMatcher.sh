@@ -1,1 +1,1 @@
-python3 LucasKanadeAffineRefinement.py panoramaCikkbe1_Infopark_szokokut/1.png panoramaCikkbe1_Infopark_szokokut/2.png panoramaCikkbe1_Infopark_szokokut/AffsBrute.txt panoramaCikkbe1_Infopark_szokokut/AffsLK.txt
+python ../LocalAffineExtractor/LucasKanadeAffineRefinement.py ../data/infopark/a.png ../data/infopark/b.png ../data/infopark/AffsBrute.txt ../data/infopark/AffsLK.txt

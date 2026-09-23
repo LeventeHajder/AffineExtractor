@@ -1,1 +1,1 @@
-python3 VisualizeAffineFeatures.py panoramaCikkbe1_Infopark_szokokut/1.png panoramaCikkbe1_Infopark_szokokut/2.png panoramaCikkbe1_Infopark_szokokut/AffsLK.txt panoramaCikkbe1_Infopark_szokokut/visLK1.png panoramaCikkbe1_Infopark_szokokut/visLK2.png
+python ../LocalAffineExtractor/VisualizeAffineFeatures.py ../data/infopark/a.png ../data/infopark/b.png ../data/infopark/AffsLK.txt ../data/infopark/visLK1.png ../data/infopark/visLK2.png
