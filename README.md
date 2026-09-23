@@ -56,3 +56,10 @@ The code is written in Python and relies on standard computer vision libraries.
 
 ```bash
 pip install numpy opencv-python matplotlib scipy
+
+
+## Contact
+
+**Levente Hajder**
+* Email: [hajder@inf.elte.hu](mailto:hajder@inf.elte.hu)
+* Website: [http://cv.inf.elte.hu](http://cv.inf.elte.hu)
