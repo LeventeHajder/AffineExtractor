@@ -44,10 +44,14 @@ You find example scripts to show the operation of the published algorithms. All 
 * runBruteMatcher.sh
 * runLucasKanadeMatcher.sh
 
+The resulting local affine transformations are in the folder data/infopark. The files are named as AffsSIFT.txt, AffsBrute.txt, AffsLK.txt.
+
+
 Finally, you can visualize the results by calling
 * runVisualize.sh
 
-The resulting local affine transformations are in the folder data/infopark. The resulting files are AffsSIFT.txt, AffsBrute.txt, AffsLK.txt.
+The script creates the following files: visLK1.png and visLK2.png. The affine patches are visualized by squares in the first image, parallelograms in the second image.
+
 
 
 ## Setup & Dependencies
