@@ -1,0 +1,1 @@
+python3 BruteForceAffineRefinement.py panoramaCikkbe1_Infopark_szokokut/1.png panoramaCikkbe1_Infopark_szokokut/2.png panoramaCikkbe1_Infopark_szokokut/AffsSIFT.txt panoramaCikkbe1_Infopark_szokokut/AffsBrute.txt

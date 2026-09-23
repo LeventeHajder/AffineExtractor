@@ -1,0 +1,1 @@
+python3 OpenCVAffineMatcher.py panoramaCikkbe1_Infopark_szokokut/1.png panoramaCikkbe1_Infopark_szokokut/2.png panoramaCikkbe1_Infopark_szokokut/AffsSIFT.txt SIFT 100
