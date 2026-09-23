@@ -38,6 +38,18 @@ If you wish to save the extracted correspondences and affine frames for external
 a11 a21 a12 a22 tx ty x1 y1 x2 y2
 ```
 
+### 4. Example Scripts
+You find example scripts to show the operation of the published algorithms. All scripts are in the folder named 'scripts'. Go into this directory, and run the scripts in this order:
+* runOpencvMatcher.sh
+* runBruteMatcher.sh
+* runLucasKanadeMatcher.sh
+
+Finally, you can visualize the results by calling
+* runVisualize.sh
+
+The resulting local affine transformations are in the folder data/infopark. The resulting files are AffsSIFT.txt, AffsBrute.txt, AffsLK.txt.
+
+
 ## Setup & Dependencies
 
 The code is written in Python and relies on standard computer vision libraries.
