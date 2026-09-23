@@ -12,6 +12,27 @@ Unlike standard matching pipelines that only output $(x, y)$ point correspondenc
   * `BruteForceAffineRefinement.py`: Search-based refinement.
 * **Affine Helper (`AffineHelper.py`)**: Utility functions for manipulating and visualizing affine matrices.
 
+---
+
+## Data Representation & Formats
+
+### 1. Affine Transformations
+The local affine frames are mathematically represented as $2 \times 3$ matrices that map a local patch from the first image to the second image:
+```math
+A = \begin{bmatrix} a_{11} & a_{12} & t_x \\ a_{21} & a_{22} & t_y \end{bmatrix}
+```
+Within the Python pipeline, these are efficiently processed as `numpy.ndarray` objects with the shape `(N, 2, 3)`, where `N` is the number of valid feature correspondences.
+
+### 2. Input Images
+The matching and refinement algorithms process standard 8-bit image formats (`.jpg`, `.png`, `.bmp`, etc.) natively supported by OpenCV. For feature extraction and gradient-based refinement, images are typically loaded in grayscale mode.
+
+### 3. File Export Format
+If you wish to save the extracted correspondences and affine frames for external processing (e.g., for C++ pipelines), the recommended standard text/CSV format stores one match per row:
+
+```text
+a11 a21 a12 a22 tx ty x1 y1 x2 y2
+```
+
 ## Setup & Dependencies
 
 The code is written in Python and relies on standard computer vision libraries.
