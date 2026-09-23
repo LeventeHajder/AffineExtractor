@@ -56,7 +56,7 @@ The code is written in Python and relies on standard computer vision libraries.
 
 ```bash
 pip install numpy opencv-python matplotlib scipy
-
+```
 
 ## Contact
 
